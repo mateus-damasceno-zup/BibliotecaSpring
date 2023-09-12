@@ -36,6 +36,7 @@ public class LivroController {
     public LivrosModel cadastraNovoLivro(@RequestBody LivrosModel livrosModel){
         return livroService.cadastraNovoLivro(livrosModel);
     }
+
     @PutMapping(path="/livros/{codigo}")
     public LivrosModel atualizaCadastro (@PathVariable Long codigo,
                                          @RequestBody LivrosModel livrosModel){
