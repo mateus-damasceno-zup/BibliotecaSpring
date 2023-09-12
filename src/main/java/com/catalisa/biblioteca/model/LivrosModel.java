@@ -1,9 +1,9 @@
 package com.catalisa.biblioteca.model;
 
-import jakarta.persistence.*;
 import lombok.*;
 import org.springframework.format.annotation.DateTimeFormat;
 
+import javax.persistence.*;
 import java.util.Date;
 
 @Entity

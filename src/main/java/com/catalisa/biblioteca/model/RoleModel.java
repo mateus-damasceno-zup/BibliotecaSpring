@@ -1,10 +1,11 @@
 package com.catalisa.biblioteca.model;
 import com.catalisa.biblioteca.enums.RoleEnum;
-import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springframework.security.core.GrantedAuthority;
+
+import javax.persistence.*;
 
 @Entity
 @Table(name = "TB_ROLE")
